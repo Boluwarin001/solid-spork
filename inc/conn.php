@@ -8,7 +8,7 @@ $shipping_fee = 2000;
 
 if ($_SERVER['SERVER_NAME']=='localhost') {
 	$url='http://localhost/destry/';
-	$conn = new mysqli('localhost', 'root', 'password', 'sms');
+	$conn = new mysqli('localhost', 'superuser', 'password', 'sms');
 }else{
 	$conn = new mysqli('localhost', 'clothmat_root', 'n}]fPr55y-gb', 'clothmat_db');
 }
