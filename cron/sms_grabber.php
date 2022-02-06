@@ -1,7 +1,7 @@
 <?php 
 
 
-	require "../conn.php";
+	require "../inc/conn.php";
 
 	$fp =fopen("/dev/ttyACM0", "w+");
 	sleep(3);
